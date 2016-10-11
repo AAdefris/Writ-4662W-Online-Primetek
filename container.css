@@ -1,0 +1,52 @@
+body {
+  font-family: Georgia;
+  font-size: 14px;
+  background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,dfe5d7+68,a7ad9f+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 1%, rgba(223,229,215,1) 68%, rgba(167,173,159,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(223,229,215,1) 68%,rgba(167,173,159,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 1%,rgba(223,229,215,1) 68%,rgba(167,173,159,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a7ad9f',GradientType=0 ); /* IE6-9 */
+
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+    padding: 1em;
+    color: black;
+    background-color: black;
+    clear: left;
+    text-align: left;
+}
+
+aside {
+    text-align: center;
+    max-width: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    list-style-type: none;
+    background-colour: black;
+    padding: 0;
+}
+
+article {
+    align-items: flex-end;
+    margin-left: 160px;
+    border-left: 1px  solid lightgray;
+    border-right: 1px;
+    padding: 2em;
+    overflow: visible;
+}
+
+nav {
+border-top: 4px white;
+align-content: left;
+}
