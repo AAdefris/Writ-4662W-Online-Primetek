@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8">
+<!DOCTYPE staff [
+<!ELEMENT staff (staff_member, skills, previous_work, background_info)>
+<!ELEMENT skills (#CDATA)>
+<!ELEMENT previous_work (#CDATA)>
+<!ELEMENT background_info (#CDATA)>
+<!ELEMENT staff_member (#CDATA)>
+
+]>
+
+
+<staff>
+  <staff_member category="Adam">
+    <skills> Experience in Datawarehousing, Roadmap development and metadata management. </skills>
+    <previous_work> Helped Aflak migrate their data to new servers during company move. Worked with Wells Fargo in remanagement of web-based banking software. </previous_work>
+    <background_info> Bachelors in Computer Engineering at University of Wisconsin, Madison. Masters in IT Development at Georgia Tech. Business Masters Degree from Georgia Tech. </background_info>
+</staff>
+
+<staff>
+  <staff_member category="Evelyn">
+    <skills> Application Development. Extensive experience in database application development, general application development and maintenance, and project management.</skills>
+    <previous_work> Has worked as a freelance application developer for mobile devices, tablet and computer applications. Has developed mobile applications as an independant developer.</previous_work>
+    <background_info> Bachelors and Masters in Computer Enginnering from the University of Minnesota, Twin Cities. Has worked in application development for 10 years. </background_info>
+</staff>

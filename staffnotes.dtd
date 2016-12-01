@@ -1,0 +1,8 @@
+
+<!DOCTYPE staff [
+<!ELEMENT staff (staff_member, skills, previous_work, background_info)>
+<!ELEMENT skills (#PCDATA)>
+<!ELEMENT previous_work (#PCDATA)>
+<!ELEMENT background_info (#PCDATA)>
+<!ELEMENT staff_member (#PCDATA)>
+]>
